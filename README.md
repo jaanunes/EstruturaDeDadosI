@@ -9,6 +9,7 @@ O seu programa deve:
 • Calcular e exibir a média aritmética de todas as notas.
 • Contar e exibir quantos alunos ficaram com nota acima da média calculada.
 • Encontrar e exibir a maior nota da lista sem utilizar funções prontas de ordenação.
+
 **Resumo da logica:**
 Percorre o vetor uma vez:
 Soma todas as notas
@@ -24,6 +25,7 @@ possível de cédulas. O programa deve ler um valor inteiro (múltiplo de 10) e 
 notas de R$ 50, R$ 20 e R$ 10 necessárias.
 Exemplo: Para R$ 180, o programa deve retornar 3 notas de R$ 50, 1 nota de R$ 20 e 1 nota de R$
 10. Utilize os operadores de divisão (/) e resto (%) para resolver o problema.
+
 **Resumo da logica:**
 Dividir o valor pela maior nota (50).
 Usar o resto para calcular a próxima (20).
@@ -38,6 +40,7 @@ digitada pelo usuário e verificar se ela atende aos seguintes critérios de seg
 Ao final, o programa deve imprimir se a senha é “Válida” ou “Inválida”. Caso seja inválida, o programa
 deve informar qual critério não foi atendido.
 Dica para C: Lembre-se de percorrer o array de caracteres até encontrar o terminador nulo ’\0’.
+
 **Resumo da logica:**
 Verificar o tamanho da senha.
 Se length >= 8 → OK.
