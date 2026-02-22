@@ -51,4 +51,30 @@ Checar se existe pelo menos um caractere especial.
 Se ambos forem verdadeiros → senha válida.
 Caso contrário → informar o que faltou.
 
+
+
+**Questão 4.**– Crie um programa que receba um valor inteiro representando um tempo total em segundos. O algoritmo deve converter e exibir esse tempo no formato composto de Horas, Minutos e
+Segundos.
+Exemplo: 3665 segundos deve resultar em 1h, 1min e 5seg.
+
+**Resumo da logica:**
+Dividir por 3600 → encontrar horas.
+Usar % 3600 → pegar o que sobrou.
+Dividir o resto por 60 → encontrar minutos.
+Usar % 60 → encontrar segundos finais.
+
+
+
+**Questão 5.**– Escreva uma função que receba um vetor de números inteiros e verifique se todos os seus
+elementos são únicos (distintos). O programa deve retornar uma mensagem confirmando se há ou não
+números repetidos na lista.
+Dica: Você precisará comparar cada elemento com todos os outros elementos subsequentes do vetor.
+
+**Resumo da logica:**
+Percorrer cada posição do vetor.
+Para cada elemento, comparar com os próximos.
+Se encontrar dois iguais → parar e retornar falso.
+Se terminar tudo sem repetir → verdadeiro.
+
+
 **Todos exercicios foram feitos na linguagem java com a estrutura baseada em Orientação a objetos aprendido durante o ultimo semestre...**
