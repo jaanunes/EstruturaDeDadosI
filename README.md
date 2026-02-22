@@ -20,6 +20,7 @@ Conta quantas notas são maiores que a média
 Exibe tudo
 
 
+
 **Questão 2.**– Implemente um simulador de caixa eletrônico que ajude a entregar o menor número
 possível de cédulas. O programa deve ler um valor inteiro (múltiplo de 10) e calcular a quantidade de
 notas de R$ 50, R$ 20 e R$ 10 necessárias.
@@ -31,6 +32,7 @@ Dividir o valor pela maior nota (50).
 Usar o resto para calcular a próxima (20).
 Usar o resto novamente para calcular 10.
 Sempre começar pela maior nota disponível.
+
 
 
 **Questão 3.**– Crie um validador de senha segura. O programa deve ler uma string (cadeia de caracteres)
